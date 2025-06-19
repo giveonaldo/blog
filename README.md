@@ -78,6 +78,12 @@ Follow the steps below to clone and run the project in your local environment:
     php artisan serve
     ```
 
+9. Tambahkan Storage Link:
+
+    ```bash
+    php artisan storage:link
+    ```
+
 ## Screenshot
 
 - ### **Homepage**

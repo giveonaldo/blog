@@ -45,7 +45,7 @@
                     <div class="grid grid-cols-4 gap-2 mb-4">
                         <div class="pt-1 hover:opacity-75 transition-opacity">
                             @if ($post->thumbnail)
-                                <img src="{{ $post->thumbnail }}" class="w-full rounded-md">
+                                <img src="{{ asset('storage/'.$post->thumbnail) }}" class="w-full rounded-md">
                             @else
                                 <img src="https://source.unsplash.com/1920x1080?{{ $post->slug }}" class="w-full rounded-md">
                             @endif

@@ -5,7 +5,7 @@
             <!-- Article Image -->
             <a class="hover:opacity-75">
                 @if ($post->thumbnail)
-                    <img src="{{ $post->thumbnail }}" class="w-full">
+                    <img src="{{ asset('storage/'.$post->thumbnail) }}" class="w-full">
                 @else
                     <img src="https://source.unsplash.com/1920x1080?{{ $post->slug }}">
                 @endif

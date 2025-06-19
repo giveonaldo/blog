@@ -2,7 +2,7 @@
     <!-- Article Image -->
     <a class="hover:opacity-75 transition-opacity">
         @if ($post->thumbnail)
-            <img src="{{ $post->thumbnail }}" class="w-full h-96 rounded-t-md">
+            <img src="{{ asset('storage/'.$post->thumbnail) }}" class="w-full h-96 rounded-t-md">
         @else
             <img src="https://source.unsplash.com/1920x1080?{{ $post->slug }}" class="rounded-t-md">
         @endif
