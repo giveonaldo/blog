@@ -84,6 +84,12 @@ Follow the steps below to clone and run the project in your local environment:
     php artisan storage:link
     ```
 
+9. Tambahkan Route app url di .env biar gambarnya terdeteksi
+
+    ```bash
+    APP_URL=http://localhost:8000
+    ```
+
 ## Screenshot
 
 - ### **Homepage**
